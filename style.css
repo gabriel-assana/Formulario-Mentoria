@@ -1,6 +1,6 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -35,34 +35,158 @@ header {
 
 header h1 {
     font-family: 'Staatliches';
-    font-style: normal;
     font-weight: 400;
     font-size: 4.8rem;
     line-height: 6.0rem;
     
     color: #FFFFFF;
+
+    margin-top: 14.0rem;
+    margin-bottom: 1.8rem
 }
 
 header p {
     width: 41.7rem;
     
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 2.0rem;
     line-height: 3.0rem;
     
     color: #FFFFFF;
     
-    margin-bottom: 58px
+    margin-bottom: 5.8rem
 }
 
 form{
     width: 75.0rem;
     height:108.4rem;
     margin: 0 auto;
-    
+    padding: 6.4rem 6.4rem 0 6.4rem;
     
     background-color: #FFFFFF;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 2.0rem 2.0rem 0 0;
+}
+
+fieldset {
+    border: none;
+    display:flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+fieldset legend {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+
+    color: #535971;
+ 
+    width: 100%;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #E6E6F0;
+    /* margin-top: 3.2rem; */
+    margin-bottom: 3.2rem ;
+}
+
+  .first-fieldset-legend {
+    padding-bottom: 1.6rem;
+    margin-bottom: 3.6rem ;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.inline-wrapper{
+    display: flex;
+    gap: 2.2rem;
+}
+
+
+.input-data, 
+.input-group-name{
+    width: 100%;
+}
+
+input{
+    height: 5.6rem;
+    padding: 0 2.4rem;
+    
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+
+    font-family: 'Poppins';
+}
+
+label{
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-family: 'Poppins';
+    
+    margin-bottom: 0.8rem;
+}
+
+label span {  
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    
+    margin-left: 4.69px;
+    color: #C1BCCC;
+}
+
+.title-mentorship{
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+
+    color: #535971;
+    margin-bottom: -0.8rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 75.0rem;
+    height: 16.0rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+}
+
+footer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+
+    width: 60.8rem;
+    height: 5.5rem;
+
+    background: #FF5374;
+    border: none;
+    border-radius: 20px;
+    
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+    transition: background-color 500ms 
+}
+
+footer button:hover{
+    background-color: #c23a55;
 }
