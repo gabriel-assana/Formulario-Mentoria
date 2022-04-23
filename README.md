@@ -16,7 +16,9 @@
 
 </div>
    
-  <img src="images/form.png" alt="logo"/>
+   <div align="center">
+      <img src="images/form.png" alt="logo"/>
+  </div>
   
   </br>
   
