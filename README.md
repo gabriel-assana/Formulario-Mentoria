@@ -11,7 +11,7 @@
 
 <div align="center">
    <p>
-    Desafio tem como principal objetivo realizar a construção de um Formulario totalmente do zero, apenas baseado no protótipo passado pelo Figma, utilizando os conhecimentos adquiridos nas aulas do nivel 03.
+     Desafio tem como principal objetivo realizar a construção de um formulário totalmente do zero, apenas baseado em um protótipo passado pelo Figma, utilizando os conhecimentos adquiridos nas aulas do nível 03.
   </p>
 
 </div>
